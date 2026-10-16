@@ -1,1 +1,13 @@
 .env
+# Environment variables
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Local tooling
+.vite/
