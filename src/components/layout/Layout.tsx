@@ -12,9 +12,9 @@ export default function Layout({
           It no longer occupies horizontal layout space. */}
       <Sidebar />
 
-      {/* Full-width application content */}
+      {/* Full-width application content with clearance for floating nav button */}
       <main className="min-h-screen w-full overflow-x-hidden overflow-y-auto">
-        <div className="w-full px-6 py-8 sm:px-8 lg:px-10">
+        <div className="w-full px-6 pt-20 pb-12 sm:px-8 sm:pt-20 lg:px-10">
           {children}
         </div>
       </main>
